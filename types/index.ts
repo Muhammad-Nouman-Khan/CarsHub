@@ -9,6 +9,9 @@ export interface CustomButtonProps {
   rightIcon?: string;
   isDisabled?: boolean;
 }
+export interface HomeProps {
+  searchParams: FilterProps;
+}
 
 export interface SearchManufacturerProps {
   manufacturer: string;
